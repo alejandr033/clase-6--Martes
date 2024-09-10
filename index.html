@@ -1,0 +1,60 @@
+<header>
+    <h1>Consultoría</h1>
+    <nav>
+        <a href="#services">Servicios</a>
+        <a href="#quote">Solicitar Cotización</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="services">
+        <h2>Servicios de Consultoría</h2>
+        <article>
+            <h2>Consultoría Empresarial</h2>
+            <p>Ofrecemos asesoramiento para mejorar la eficiencia y efectividad de su empresa. Nuestro enfoque se centra en la optimización de procesos y estrategias empresariales.</p>
+            <a href="#">Más información</a>
+        </article>
+        <article>
+            <h2>Consultoría Financiera</h2>
+            <p>Le ayudamos a gestionar sus finanzas de manera eficiente, desde la planificación hasta la gestión de riesgos y el cumplimiento normativo.</p>
+            <a href="#">Más información</a>
+        </article>
+        <article>
+            <h2>Consultoría en TI</h2>
+            <p>Asesoramos en la implementación de tecnologías y sistemas informáticos para mejorar la infraestructura tecnológica de su empresa.</p>
+            <a href="#">Más información</a>
+        </article>
+    </section>
+
+    <section id="quote" class="form-container">
+        <h2>solicitar cotizacion</h2>
+        <form action="#"> </form"post">
+            <label for="name">nombre:</label>
+            <input type="text" id="name" name="name" required> <br>
+            <label for="company">empresa:</label>
+            <input type="text" id="company" name="company" required>  <br>           
+            <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required> <br>
+
+            <label for="service">tipo de servicio:</label> 
+            <select id="service" name="service" required>
+                <option value=""disabled selected>selecionar un servicio</option>
+                <option value="business"></option>consultorio empresarial</option>
+                <option value="finance"></option>consultoría financiera</option>
+                <option value="it"></option>consultoría en TI</option>
+
+                <label for="description">descripción del proyecto</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                 
+                <button type="submit">enviar cotizacion</button>
+                
+        </form>
+        
+    </section>
+</div>
+
+<footer>
+    
+
+
+
